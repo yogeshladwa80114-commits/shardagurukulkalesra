@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Sharda Gurukul Kalesra</title>
+<style>
+
+body{
+font-family: Arial;
+margin:0;
+background:#f2f2f2;
+}
+
+header{
+background:#0a4d8c;
+color:white;
+text-align:center;
+padding:20px;
+}
+
+nav{
+background:#333;
+padding:10px;
+text-align:center;
+}
+
+nav a{
+color:white;
+margin:15px;
+text-decoration:none;
+font-size:18px;
+}
+
+section{
+padding:40px;
+text-align:center;
+}
+
+.gallery img{
+<div class="slider">
+  <img class="slides" src="school1.jpg">
+  <img class="slides" src="school2.jpg">
+  <img class="slides" src="school3.jpg">
+  <img class="slides" src="school4.jpg">
+</div>
+
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("slides");
+  
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 2000);
+}
+</script>
+
+width:250px;
+margin:10px;
+border-radius:10px;
+}
+
+footer{
+background:#222;
+color:white;
+text-align:center;
+padding:15px;
+}
+
+button{
+background:#ff9800;
+border:none;
+padding:12px 20px;
+font-size:18px;
+border-radius:5px;
+cursor:pointer;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Sharda Gurukul Kalesra</h1>
+<p>Admission Open 2026-27</p>
+</header>
+
+<nav>
+<a href="#">Home</a>
+<a href="#">About</a>
+<a href="#">Facilities</a>
+<a href="#">Gallery</a>
+<a href="#">Contact</a>
+</nav>
+
+<section>
+<h2>Welcome to Sharda Gurukul Kalesra</h2>
+<p>A place for quality education and bright future.</p>
+
+<button>Apply For Admission</button>
+
+</section>
+
+<section>
+<h2>Our Facilities</h2>
+
+<p>✔ Smart Classes</p>
+<p>✔ Yoga Training</p>
+<p>✔ School Bus</p>
+<p>✔ Playground</p>
+
+</section>
+
+<section class="gallery">
+
+<h2>School Gallery</h2>
+
+<img src="school1.jpg">
+<img src="school2.jpg">
+<img src="school3.jpg">
+
+</section>
+
+<section>
+
+<h2>Contact Us</h2>
+
+<p>Phone: 9876543210</p>
+<p>Address: Kalesra</p>
+
+</section>
+
+<footer>
+
+<p>© 2026 Sharda Gurukul Kalesra</p>
+
+</footer>
+
+</body>
+</html>
+<img src="school1.jpeg">
+<img src="school2.jpeg">
+<img src="school3.jpeg">
